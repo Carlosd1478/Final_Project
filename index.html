@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="custom.scss"> -->
+  <title>Carlos Delgado</title>
+</head>
+
+<body>
+  <!-- nav bar  -->
+  <nav class="navbar fixed-top bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <!-- name in nav bar  -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">Carlos Delgado</a>
+      <!-- nav bar button  -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- nav bar listed items  -->
+      <div class="d-flex">
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active d-flex" aria-current="page" href="#about"><img src="./icons/person.svg" alt="">
+                About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="#technology"><img src="./icons/gear.svg" alt=""> Technology</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#projects" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><img src="./icons/trophy.svg" alt="">
+                Projects
+              </a>
+              <!-- nav bar drop down  -->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#project-one">Project 1</a></li>
+                <!-- <li><a class="dropdown-item" href="#project-two">Project 2</a></li> -->
+                <!-- <li><a class="dropdown-item" href="#project-three">Project 3</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="#contact"><img src="./icons/send.svg" alt=""> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- main container  -->
+  <div class="main-container">
+    <div id="home"></div>
+    <!-- first section  -->
+    <section id="about">
+      <!-- first container  -->
+      <div class="first-container flex">
+
+        <!-- profile pic  -->
+        <div class="profilePic flex">
+          <img src="./Images/Portfilio_pic.jpg" alt="pic of carlos">
+        </div>
+        <!-- profile pic bio -->
+        <div class="profilePicBio flex">
+          <h1>Carlos Delgado</h1>
+          <!-- <p>""</p> -->
+          <h2>Software Developer</h2>
+
+        </div>
+      </div>
+
+      <!-- second section  -->
+      <!-- second container  -->
+      <div class="second-container flex">
+        <!-- about me  -->
+        <div class="aboutMe flex">
+          <h2>About Me</h2>
+
+        </div>
+        <!-- rotating pics  -->
+        <div class="rotatingPics flex">
+          <div id="carouselExampleInterval" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./Images/family.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./Images/AfterlightImage.JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/fishpic.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/snowboardpic.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- third section  -->
+    <!-- third container  -->
+    <!-- <div class="third-container flex"> -->
+    <!-- my career  -->
+    <!-- <div class="myCareerGif flex">
+        <img src="./Images/loop2.gif" alt="loop 2 gif">
+
+
+      </div>
+      <div class="myCareer flex">
+        <h3>My Career</h3>
+        <p>hfhdfh</p>
+
+      </div>
+    </div> -->
+
+    <!-- fourth section  -->
+    <!-- under the hood image -->
+    <section id="technology">
+      <div class="underTheHood flex">
+
+        <h3>Under The Hood</h3>
+
+      </div>
+
+      <!-- fourth container -->
+      <div class="fourth-container flex">
+        <!-- bootcamp  -->
+        <div class="bootcamp flex">
+          <div class="bootcampBio flex">
+            <h4>My Coding Bootcamp Experience</h4>
+            <br>
+            <p>After years thorough consideration, I made the decision to enroll in Coding Dojo's immersive coding
+              bootcamp. Throughout the 16-week program, I devoted myself entirely to learning and writing code,
+              conducting heavy amounts of research, extensive reading, and creating impressive projects. The experience
+              was genuinely life-changing, uncovering a passion that I had never before realized. Here is a glimpse into
+              my bootcamp experience:</p>
+          </div>
+
+        </div>
+        <div class="bootcampLayout flex">
+          <ul class="bootcampTimeline">
+            <li class="timeline">
+              <h4>Month 1</h4>
+              <div class="programLogos flex">
+                <img class="htmlLogo" src="./icons/HTML_logo.svg.png" alt="html">
+                <img class="cssLogo" src="./icons/CSS_Logo.svg.png" alt="css">
+                <img class="jsLogo" src="./icons/Javascript_badge.svg.png" alt="js">
+              </div>
+            </li>
+            <li class="timeline">
+              <h4>Month 2</h4>
+              <div class="programLogos">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+              </div>
+            </li>
+            <li class="timeline">
+              <h4>Month 3</h4>
+              <div class="programLogos">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+              </div>
+            </li>
+            <li class="timeline">
+              <h4>Month 4</h4>
+              <div class="programLogos">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- fifth section  -->
+    <section id="projects">
+      <!-- projects pic  -->
+      <div class="projectsPic flex">
+        <h5>Projects</h5>
+
+      </div>
+
+      <!-- fifth container  -->
+      <div class="fifth-container flex">
+        <!-- project 1 -->
+        <section id="project-one"></section>
+        <div class="project1 flex">
+          <div class="project1Bio flex">
+            <h5>Project 1 name</h5>
+            <p>bio about project 1</p>
+
+          </div>
+          <div class="project1Img flex">
+            <img src="./Images/pexels-minsu-b-11932126.jpg" alt="">
+
+          </div>
+
+        </div>
+        <!-- project 2 -->
+        <!-- <section id="project-two"></section>
+      <div class="project2 flex">
+        <div class="project2Bio flex">
+          <h5>Project 2 name</h5>
+          <p>Bio about project 2</p>
+
+        </div>
+        <div class="project2Img flex">
+          <img src="./Images/pexels-pareekshith-indeever-10919552.jpg" alt="">
+
+        </div>
+      </div> -->
+
+        <!-- project 3 -->
+        <!-- <section id="project-three"></section>
+        <div class="project3 flex">
+        <div class="project3Bio flex">
+          <h5>Project 3 name</h5>
+          <p>Bio about project 3</p>
+
+        </div>
+        <div class="project3Img flex">
+          <img src="./Images/pexels-minsu-b-11932126.jpg" alt="">
+
+        </div>
+      </div> -->
+
+      </div>
+    </section>
+
+    <!-- sixth section  -->
+    <section id="contact">
+      <!-- sixth container  -->
+      <div class="sixth-container flex">
+        <!-- contact me  -->
+        <div class="contactMe flex">
+          <h5>Contact Me</h5>
+          <div class="contacts flex">
+            <a class="linkedin flex"
+              href="https://www.linkedin.com/in/carlos-delgado-b512b7aa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BusTi35XmSP6FrDoKIT6Pew%3D%3D"><img
+                src="./icons/linkedin.svg" alt="linkedin-logo">
+              <p>Linkedin</p>
+            </a>
+            <a class="github flex" href="https://github.com/Carlosd1478"><img src="./icons/github.svg"
+                alt="github-logo">
+              <p>Github</p>
+            </a>
+            <a class="resume flex" href="./resume/Carlos-Delgado-Resume-2022.docx" download><img
+                src="./icons/file-earmark-person.svg" alt="resume-logo">
+              <p>Resume</p>
+            </a>
+            <a class="email flex" href="mailto:carlos.delgado1478@live.com"><img src="./icons/envelope-at.svg"
+                alt="email-logo">
+              <p>Email</p>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- seventh section  -->
+    <!-- seventh container  -->
+    <!-- <div class="seventh-container flex">
+      <div class="messageMe flex">
+        <h5>Message Me</h5>
+
+      </div>
+    </div> -->
+
+  </div>
+</body>
+<script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js"></script>
+
+</html>

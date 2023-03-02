@@ -1,0 +1,581 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* nav bar  */
+
+.navbar {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    height: 70px;
+    box-shadow: 1px 1px;
+}
+
+.navbar-collaspse {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+}
+.navbar-nav {
+    /* display: flex; */
+    /* justify-content:flex-end; */
+}
+.navbar-brand {
+    font-size: 50px;
+    margin-left: 30px;
+}
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+font-size: 15px;
+}
+
+.nav-link img {
+    width: 20px;
+    margin-right: 5px;
+    /* align-items: center; */
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.navbar-toggler {
+    color: white;
+    /* background-color: white; */
+    outline: solid white 1px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    /* background-color: white; */
+}
+
+/* main container  */
+
+.main-container {
+    /* background-color:aquamarine; */
+    margin: 0 auto;
+    /* color: brown; */
+    /* height: 1000px; */
+    /* margin-top: 50px; */
+    margin-top: 70px;
+}
+
+/* first section  */
+/* first container */
+
+/* .first-container {
+    background-color: red; */
+    /* height: 500px; */
+    /* width: 1000px; */
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+/* } */
+
+.first-container {
+    background-image: url("./Images/pexels-minsu-b-11932126.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: top; */
+    /* background-color:chartreuse; */
+    /* margin: 0 auto; */
+    /* width: 500px; */
+    /* height: 800px; */
+}
+/* .first-container img {
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+} */
+
+ /* profile pic  */
+
+.profilePic {
+    /* background-color: blue; */
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.profilePic img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+/* profile pic bio  */
+
+.profilePicBio {
+    /* background-color: blueviolet; */
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.profilePicBio h1 {
+    font-size: 90px;
+    color: white;
+}
+
+.profilePicBio h2 {
+    font-size: 40px;
+}
+
+
+/* second section  */
+/* second container  */
+
+.second-container {
+    margin: 0 auto;
+    /* height: 550px; */
+    /* margin-bottom: 20px; */
+
+}
+
+/* about me  */
+
+.aboutMe {
+    background-color:rgb(36, 38, 40);
+    height: 530px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 20px; */
+    text-align: center;
+}
+
+.aboutMe h2 {
+    font-size: 50px;
+    color: white;
+    margin-left: 30px;
+}
+.aboutMe p {
+    font-size: 25px;
+    color: rgb(182, 179, 179);
+    margin-left: 30px;
+}
+
+/* rotating pics  */
+
+.rotatingPics {
+    background-color: rgb(36, 38, 40);
+    height: 530px;
+    width: 100%;
+
+}
+
+.carousel-item {
+
+}
+
+.carousel-inner img {
+    width: 50px;
+}
+
+.carousel-item {
+    width: 350px;
+    /* height: 100px; */
+}
+
+/* third section  */
+/* third container  */
+
+.third-container {
+    margin: 0 auto;
+
+}
+
+/* my career  */
+
+.myCareerGif {
+    background-color:#3a3a3c;
+    height: 500px;
+    width: 100%;
+
+}
+
+.myCareerGif img {
+    width: 200px;
+
+}
+
+.myCareer {
+    background-color:#3a3a3c;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.myCareer h3 {
+    font-size: 50px;
+    color: white;
+
+}
+
+.myCareer p {
+    color: white;
+}
+
+/* fourth section  */
+/* under the hood image  */
+
+.underTheHood {
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+    background-image: url("./Images/pexels-quang-nguyen-vinh-6136337.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.underTheHood img {
+    width: 400px;
+}
+
+.underTheHood h3 {
+    font-size: 40px;
+    color: white;
+}
+
+/* fourth container  */
+
+.fourth-container {
+    margin: 0 auto;
+
+}
+
+/* bootcamp  */
+
+.bootcamp {
+    background-color: rgb(36, 38, 40);
+    height: 600px;
+    width: 100%;
+    justify-content: first baseline;
+    align-items:center;
+    flex-direction: column;
+    /* outline: red solid 2px; */
+
+}
+
+.bootcampBio {
+    justify-content: first baseline;
+    align-items:center;
+    height: 300px;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 30px;
+    /* outline: red solid 2px; */
+}
+
+.bootcamp h4 {
+    font-size: 50px;
+    color: white;
+}
+
+.bootcamp p {
+    font-size: 30px;
+    color: rgb(182, 179, 179);
+}
+
+.bootcampLayout {
+    background-color:rgb(36, 38, 40);
+    /* margin-top: 20px; */
+    height: 600px;
+    width: 100%;
+    
+}
+
+.bootcampTimeline {
+    width: 350px;
+    height: 460px;
+    background-color: #4d4d4f;
+}
+
+.timeline {
+    
+}
+
+.timeline h4 {
+    color: white;
+    margin-top: 30px;
+}
+
+.programLogos {
+    /* justify-content: space-evenly; */
+    /* outline: red solid 2px; */
+
+
+}
+
+/* .programLogos img {
+    width: 50px;
+
+} */
+
+.htmlLogo {
+    width: 75px;
+}
+
+.cssLogo {
+    width: 55px;
+}
+
+.jsLogo {
+    width: 70px;
+}
+
+/* fifth section  */
+/* projects pic  */
+
+.projectsPic {
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+    background-image: url("./Images/pexels-saad-alaiyadhi-13010769.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.projectsPic h5 {
+    font-size: 50px;
+    color: white;
+}
+
+.projectsPic img {
+    width: 400px;
+}
+
+/* fifth container  */
+
+.fifth-container {
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+
+/* project 1 */
+
+.project1 {
+    /* background-color: brown; */
+    /* height: 800px; */
+    width: 100%;
+    margin: 0 auto;
+    /* flex-direction: column; */
+
+}
+
+.project1Bio {
+    background-color:#3a3a3c;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.project1 h5 {
+    color: white;
+
+}
+.project1 p {
+    color: white;
+
+}
+
+.project1Img {
+    background-color:#3a3a3c;
+    height: 400px;
+    width: 100%;
+
+}
+
+.project1Img img {
+    width: 100px;
+}
+
+/* project 2 */
+
+.project2 {
+    width: 100%;
+    margin: 0 auto;
+    /* flex-direction: column; */
+
+}
+
+.project2Bio {
+    background-color:rgb(36, 38, 40);
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.project2 h5 {
+    color: white;
+
+}
+.project2 p {
+    color: white;
+
+}
+
+.project2Img {
+    background-color:rgb(36, 38, 40);
+    height: 400px;
+    width: 100%;
+    
+}
+.project2Img img {
+    width: 100px;
+}
+
+/* project 3 */
+
+.project3 {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.project3Bio {
+    background-color:#3a3a3c;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.project3 h5 {
+    color: white;
+
+}
+.project3 p {
+    color: white;
+
+}
+
+.project3Img {
+    background-color:#3a3a3c;
+    height: 400px;
+    width: 100%;
+    
+}
+.project3Img img {
+    width: 100px;
+}
+
+/* sixth section  */
+/* sixth container  */
+
+.sixth-container {
+    margin: 0 auto;
+
+}
+
+/* contact me  */
+
+.contactMe {
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+    background-color:rgb(36, 38, 40);
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+
+}
+
+.contactMe h5 {
+    color: white;
+}
+
+.contacts {
+    width: 100%;
+    height: 100px;
+    /* outline: solid red 2px; */
+    /* justify-content: space-between; */
+    /* align-items: end; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.linkedin {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.github {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email {
+    flex-direction: column;
+    justify-content: center;
+}
+.contacts img {
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 80px;
+    margin-bottom: 20px;
+    /* border-radius: 80%; */
+
+    /* margin-right: 30px; */
+}
+
+.contactMe h5 {
+    font-size: 40px;
+}
+.contactMe p {
+    color: white;
+    text-decoration:none;
+    color: rgb(182, 179, 179);
+    
+}
+
+.contactMe a {
+    text-decoration: none;
+}
+
+
+/* seventh section  */
+/* seventh container  */
+.seventh-container {
+    margin: 0 auto;
+
+}
+
+.messageMe {
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+    background-color:#3a3a3c;
+
+}
+
+.messageMe h5 {
+    color: white;
+}
