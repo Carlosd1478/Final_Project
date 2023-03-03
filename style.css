@@ -12,19 +12,13 @@
 /* nav bar  */
 
 .navbar {
-    /* display: flex; */
-    /* justify-content: flex-end; */
     height: 70px;
     box-shadow: 1px 1px;
 }
 
 .navbar-collaspse {
-    /* display: flex; */
-    /* justify-content: flex-end; */
 }
 .navbar-nav {
-    /* display: flex; */
-    /* justify-content:flex-end; */
 }
 .navbar-brand {
     font-size: 50px;
@@ -41,7 +35,6 @@ font-size: 15px;
 .nav-link img {
     width: 20px;
     margin-right: 5px;
-    /* align-items: center; */
     justify-content: center;
     justify-items: center;
     text-align: center;
@@ -49,59 +42,38 @@ font-size: 15px;
 
 .navbar-toggler {
     color: white;
-    /* background-color: white; */
     outline: solid white 1px;
 }
 
 .navbar-toggler-icon {
     color: white;
-    /* background-color: white; */
+}
+
+.dropdown-toggle {
+    align-items: center;
 }
 
 /* main container  */
 
 .main-container {
-    /* background-color:aquamarine; */
     margin: 0 auto;
-    /* color: brown; */
-    /* height: 1000px; */
-    /* margin-top: 50px; */
     margin-top: 70px;
 }
 
 /* first section  */
 /* first container */
 
-/* .first-container {
-    background-color: red; */
-    /* height: 500px; */
-    /* width: 1000px; */
-    /* display: flex; */
-    /* margin: 0 auto; */
-    /* justify-content: center; */
-/* } */
 
 .first-container {
     background-image: url("./Images/pexels-minsu-b-11932126.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* background-position: top; */
-    /* background-color:chartreuse; */
-    /* margin: 0 auto; */
-    /* width: 500px; */
-    /* height: 800px; */
 }
-/* .first-container img {
-    width: 100px;
-    align-items: center;
-    justify-content: center;
-} */
 
  /* profile pic  */
 
 .profilePic {
-    /* background-color: blue; */
     height: 400px;
     width: 100%;
     margin-top: 50px;
@@ -115,14 +87,11 @@ font-size: 15px;
 /* profile pic bio  */
 
 .profilePicBio {
-    /* background-color: blueviolet; */
     height: 400px;
     width: 100%;
     margin-top: 50px;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 .profilePicBio h1 {
@@ -140,9 +109,6 @@ font-size: 15px;
 
 .second-container {
     margin: 0 auto;
-    /* height: 550px; */
-    /* margin-bottom: 20px; */
-
 }
 
 /* about me  */
@@ -153,7 +119,6 @@ font-size: 15px;
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    /* margin-left: 20px; */
     text-align: center;
 }
 
@@ -174,11 +139,9 @@ font-size: 15px;
     background-color: rgb(36, 38, 40);
     height: 530px;
     width: 100%;
-
 }
 
 .carousel-item {
-
 }
 
 .carousel-inner img {
@@ -187,7 +150,6 @@ font-size: 15px;
 
 .carousel-item {
     width: 350px;
-    /* height: 100px; */
 }
 
 /* third section  */
@@ -195,7 +157,6 @@ font-size: 15px;
 
 .third-container {
     margin: 0 auto;
-
 }
 
 /* my career  */
@@ -204,12 +165,10 @@ font-size: 15px;
     background-color:#3a3a3c;
     height: 500px;
     width: 100%;
-
 }
 
 .myCareerGif img {
     width: 200px;
-
 }
 
 .myCareer {
@@ -241,7 +200,6 @@ font-size: 15px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .underTheHood img {
@@ -257,7 +215,6 @@ font-size: 15px;
 
 .fourth-container {
     margin: 0 auto;
-
 }
 
 /* bootcamp  */
@@ -266,21 +223,18 @@ font-size: 15px;
     background-color: rgb(36, 38, 40);
     height: 600px;
     width: 100%;
-    justify-content: first baseline;
+    justify-content: baseline;
     align-items:center;
     flex-direction: column;
-    /* outline: red solid 2px; */
-
 }
 
 .bootcampBio {
-    justify-content: first baseline;
+    justify-content: baseline;
     align-items:center;
     height: 300px;
     text-align: center;
     flex-direction: column;
     margin-left: 30px;
-    /* outline: red solid 2px; */
 }
 
 .bootcamp h4 {
@@ -295,10 +249,8 @@ font-size: 15px;
 
 .bootcampLayout {
     background-color:rgb(36, 38, 40);
-    /* margin-top: 20px; */
     height: 600px;
     width: 100%;
-    
 }
 
 .bootcampTimeline {
@@ -317,16 +269,8 @@ font-size: 15px;
 }
 
 .programLogos {
-    /* justify-content: space-evenly; */
-    /* outline: red solid 2px; */
-
 
 }
-
-/* .programLogos img {
-    width: 50px;
-
-} */
 
 .htmlLogo {
     width: 75px;
@@ -351,7 +295,6 @@ font-size: 15px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .projectsPic h5 {
@@ -368,18 +311,13 @@ font-size: 15px;
 .fifth-container {
     margin: 0 auto;
     flex-direction: column;
-
 }
 
 /* project 1 */
 
 .project1 {
-    /* background-color: brown; */
-    /* height: 800px; */
     width: 100%;
     margin: 0 auto;
-    /* flex-direction: column; */
-
 }
 
 .project1Bio {
@@ -387,97 +325,22 @@ font-size: 15px;
     height: 400px;
     width: 100%;
     flex-direction: column;
-
 }
 
 .project1 h5 {
     color: white;
-
 }
 .project1 p {
     color: white;
-
 }
 
 .project1Img {
     background-color:#3a3a3c;
     height: 400px;
     width: 100%;
-
 }
 
 .project1Img img {
-    width: 100px;
-}
-
-/* project 2 */
-
-.project2 {
-    width: 100%;
-    margin: 0 auto;
-    /* flex-direction: column; */
-
-}
-
-.project2Bio {
-    background-color:rgb(36, 38, 40);
-    height: 400px;
-    width: 100%;
-    flex-direction: column;
-
-}
-
-.project2 h5 {
-    color: white;
-
-}
-.project2 p {
-    color: white;
-
-}
-
-.project2Img {
-    background-color:rgb(36, 38, 40);
-    height: 400px;
-    width: 100%;
-    
-}
-.project2Img img {
-    width: 100px;
-}
-
-/* project 3 */
-
-.project3 {
-    width: 100%;
-    margin: 0 auto;
-
-}
-
-.project3Bio {
-    background-color:#3a3a3c;
-    height: 400px;
-    width: 100%;
-    flex-direction: column;
-
-}
-
-.project3 h5 {
-    color: white;
-
-}
-.project3 p {
-    color: white;
-
-}
-
-.project3Img {
-    background-color:#3a3a3c;
-    height: 400px;
-    width: 100%;
-    
-}
-.project3Img img {
     width: 100px;
 }
 
@@ -486,7 +349,6 @@ font-size: 15px;
 
 .sixth-container {
     margin: 0 auto;
-
 }
 
 /* contact me  */
@@ -497,9 +359,7 @@ font-size: 15px;
     width: 100%;
     background-color:rgb(36, 38, 40);
     flex-direction: column;
-    /* justify-content: space-evenly; */
     align-items: center;
-
 }
 
 .contactMe h5 {
@@ -509,11 +369,6 @@ font-size: 15px;
 .contacts {
     width: 100%;
     height: 100px;
-    /* outline: solid red 2px; */
-    /* justify-content: space-between; */
-    /* align-items: end; */
-    /* align-items: center; */
-    /* justify-content: center; */
 
 }
 
@@ -537,13 +392,9 @@ font-size: 15px;
     justify-content: center;
 }
 .contacts img {
-    /* justify-content: space-between; */
     align-items: center;
     width: 80px;
     margin-bottom: 20px;
-    /* border-radius: 80%; */
-
-    /* margin-right: 30px; */
 }
 
 .contactMe h5 {
@@ -563,9 +414,9 @@ font-size: 15px;
 
 /* seventh section  */
 /* seventh container  */
+
 .seventh-container {
     margin: 0 auto;
-
 }
 
 .messageMe {
@@ -573,9 +424,13 @@ font-size: 15px;
     height: 400px;
     width: 100%;
     background-color:#3a3a3c;
-
 }
 
 .messageMe h5 {
     color: white;
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem;
 }
